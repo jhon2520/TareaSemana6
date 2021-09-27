@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+
+}
+
+body{
+    background: rgba(6,7,28,1);
+}
+.container{
+    margin: 0 150px;
+    background: rgb(0, 123, 200);
+    height: 100vh;
+}
+.header{
+    background: rgb(45, 50, 62);
+    display:  flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+    .header .logo{
+        /* background: red; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 80px;
+        width: 15%;
+    }
+        .header .logo img{
+            width: 19%;
+            margin-left: 12%;
+        }
+        .header .logo h1{
+            margin-left: 10px;
+            color: #fff;
+        }
+
+    .header .navigation_bar_superior{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .header .navigation_bar_superior li{
+        
+        height: 80px;
+        /* background: cornflowerblue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        color: white;
+        font-size: 19px;
+        font-weight: 700;
+        
+    }
+    .header .navigation_bar_superior li a{
+        text-decoration: none;
+        color: #fff;
+    } 
+    .header .navigation_bar_superior li:hover{
+        background: rgba(255, 255, 255, 0.2);
+    } 
+
+main{
+    margin-left: 15px;
+    margin-right: 15px; 
+      
+}
+
+    main .navigation_bar_central{
+        background: rgb(65, 195, 235);
+        -webkit-box-shadow: 0px 10px 11px -7px rgba(6,7,28,1);
+        -moz-box-shadow: 0px 10px 11px -7px rgba(6,7,28,1);
+        box-shadow: 0px 10px 11px -7px rgba(6,7,28,1);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 40px;
+    }
+
+        main .navigation_bar_central li{
+            list-style: none;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background: gray; */
+            width: 80px;
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        main .navigation_bar_central li:hover{
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        main .navigation_bar_central li a{
+            text-decoration: none;
+            color: #fff;
+        }
+    
+    main .juegos{
+        justify-content: flex-start;
+        align-items: center;
+        background: red;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        align-content: stretch;
+        display: flex;
+        -webkit-box-shadow: 3px 7px 41px 9px rgba(6,7,28,1);
+        -moz-box-shadow: 3px 7px 41px 9px rgba(6,7,28,1);
+        box-shadow: 3px 7px 41px 9px rgba(6,7,28,1);
+    
+        
+
+    }
+
+    main .juegos article{
+        background: chartreuse;
+        height: 600px;
+        flex: 2 1 auto;
+    }
+
+        main h2{
+            text-transform: uppercase;
+            color: #fff;
+        }
+        main .juegos article .imagen-central{
+            background: chartreuse;
+            height: 600px;
+        }
+
+        main .juegos article .imagen-central img{
+            height: 100%;
+        }
+    
+    main .juegos aside{
+        background: rgb(32, 61, 97);
+        flex: 1 1 auto;
+        padding: 10px;
+        height: 600px;
+        width: 100%;
+
+    }
+        main .juegos aside .ima-aside{
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            flex-wrap: wrap;
+            gap: 5px;
+            /* background: chocolate; */
+            height: 50%;
+            margin: 30px 0;
+            
+        }
+        main .juegos aside .ima-aside img{
+            width: 220px;
+        }
+        main .juegos aside h2:nth-child(3){
+            
+        margin-bottom: 35px;
+            
+        }
+
+        main .juegos aside a{
+            text-decoration: none;
+            color: #fff;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+          
+        }
+        main .juegos aside a:hover{
+            background: rgba(255, 255, 255, 0.8);
+            color: rgba(6,7,28,1);
+        }
+        main .juegos aside p{
+            color: white;
+            margin-bottom: 25px;
+        }
+
+footer{
+    background: rgb(45, 50, 62);
+    margin-top: 15px;
+    width: 100%;
+    height: 20ch;
+}
